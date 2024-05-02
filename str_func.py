@@ -14,3 +14,7 @@ def make_capital_letters_again(text:str) -> str:
     :return:
     """
     return ' '.join(x.capitalize() for x in text.split())
+
+
+def foo():
+    pass
